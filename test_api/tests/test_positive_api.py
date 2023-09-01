@@ -1,5 +1,4 @@
 import pytest
-from test_api.fixtures.api_fixtures import api_client
 
 @pytest.mark.parametrize("endpoint", ["/api/users?page=2"])
 def test_get_list_users(api_client):
